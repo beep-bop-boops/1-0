@@ -11,7 +11,7 @@ int main()
  speed = 200;
 
 
-for(int i=1; i<=20000000000000000000; i++)
+for(long i=1; i<=2000000000; i++)
 {
     /*
     for(int o=1; o<=8; o++)
@@ -31,7 +31,7 @@ for(int i=1; i<=20000000000000000000; i++)
     
     
     cout << "out // ";
-/te
+/test text
     */
 
    if(GetKeyState('W') & 0x8000/*Check if high-order bit is set (1 << 15)*/)
