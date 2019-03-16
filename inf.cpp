@@ -31,7 +31,7 @@ for(int i=1; i<=20000000000000000000; i++)
     
     
     cout << "out // ";
-
+/te
     */
 
    if(GetKeyState('W') & 0x8000/*Check if high-order bit is set (1 << 15)*/)
